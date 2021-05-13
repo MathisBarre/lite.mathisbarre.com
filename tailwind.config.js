@@ -3,7 +3,12 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'gray-1000': '#0c121d',
+        'gray-1100': '#080b11',
+      }
+    },
   },
   variants: {
     extend: {},
