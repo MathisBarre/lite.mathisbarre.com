@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       detailed: true,
       ignoreLocalhost: true
     })
-    ackeeInstance.record("3ab5bc75-a533-4263-a4c3-8e6c0cdac29c", ackeeTracker.attributes(true), () => {
+    ackeeInstance.record("8f317627-3e1b-4e96-94a1-ad60a6945bd4", ackeeTracker.attributes(true), () => {
       console.log("record")
     })
   })
